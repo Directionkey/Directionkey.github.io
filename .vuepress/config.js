@@ -2,7 +2,7 @@ module.exports = {
   "title": "X2",
   "description": "X2",
   "dest": "public",
-  "base": "/",
+  'base': 'https://directionkey.github.io/',
   "head": [
     [
       "link",
