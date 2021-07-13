@@ -18,8 +18,8 @@ module.exports = {
       }
     ]
   ],
-  'base': 'https://directionkey.github.io/',
-  // "theme": "reco",
+  "base": "https://directionkey.github.io/",
+  "theme": "reco",
   "themeConfig": {
     "nav": [
       {
