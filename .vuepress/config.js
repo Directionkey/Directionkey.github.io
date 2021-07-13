@@ -18,7 +18,7 @@ module.exports = {
       }
     ]
   ],
-  "base": "/",
+  // "base": "/",
   "theme": "reco",
   "themeConfig": {
     "nav": [
