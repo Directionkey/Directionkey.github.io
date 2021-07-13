@@ -18,7 +18,7 @@ module.exports = {
       }
     ]
   ],
-  // "base": "/",
+  "base": "/directionkey.github.io/",
   "theme": "reco",
   "themeConfig": {
     "nav": [
