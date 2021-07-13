@@ -2,7 +2,6 @@ module.exports = {
   "title": "X2",
   "description": "X2",
   "dest": "public",
-  'base': 'https://directionkey.github.io/',
   "head": [
     [
       "link",
@@ -19,7 +18,8 @@ module.exports = {
       }
     ]
   ],
-  "theme": "reco",
+  'base': 'https://directionkey.github.io/',
+  // "theme": "reco",
   "themeConfig": {
     "nav": [
       {
