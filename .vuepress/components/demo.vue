@@ -16,10 +16,5 @@ export default {
       this.$refs.doodle.update();
     },
   },
-  mounted() {
-    import("./lib-that-access-window-on-import").then((module) => {
-      // use code
-    });
-  },
 };
 </script>
