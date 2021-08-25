@@ -1,102 +1,139 @@
 module.exports = {
-  "title": "X2",
-  "description": "X2",
-  "dest": "public",
-  "head": [
+  title: 'X2的博客',
+  description: '欢迎来听听看看',
+  dest: 'public',
+  head: [
     [
-      "link",
+      'meta',
       {
-        "rel": "icon",
-        "href": "/favicon.ico"
-      }
+        name: 'viewport',
+        content: 'width=device-width,initial-scale=1,user-scalable=no',
+      },
+    ],
+    ['link', { rel: 'icon', href: '/icon/favicon.ico' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['meta', { name: 'theme-color', content: '#FF66CC' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    [
+      'meta',
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
     ],
     [
-      "meta",
+      'link',
+      { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' },
+    ],
+    [
+      'link',
       {
-        "name": "viewport",
-        "content": "width=device-width,initial-scale=1,user-scalable=no"
-      }
-    ]
+        rel: 'mask-icon',
+        href: '/icons/safari-pinned-tab.svg',
+        color: '#3eaf7c',
+      },
+    ],
+    [
+      'meta',
+      {
+        name: 'msapplication-TileImage',
+        content: '/icons/msapplication-icon-144x144.png',
+      },
+    ],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    [
+      'script',
+      {
+        language: 'javascript',
+        type: 'text/javascript',
+        src: 'https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js',
+      },
+    ],
+    // 引入鼠标点击脚本
+    [
+      'script',
+      {
+        language: 'javascript',
+        type: 'text/javascript',
+        src: '/js/MouseClickEffect.js',
+      },
+    ],
   ],
-  "base": "/directionkey.github.io/",
-  "theme": "reco",
-  "themeConfig": {
-    "nav": [
+  plugins: [
+    [
+      '@vuepress/pwa',
       {
-        "text": "Home",
-        "link": "/",
-        "icon": "reco-home"
+        serviceWorker: true,
+        updatePopup: {
+          message: '发现新内容可用',
+          buttonText: '刷新',
+        },
       },
-      {
-        "text": "TimeLine",
-        "link": "/timeline/",
-        "icon": "reco-date"
-      },
-      {
-        "text": "Docs",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
-      },
-      {
-        "text": "Contact",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/recoluan",
-            "icon": "reco-github"
-          }
-        ]
-      }
     ],
-    "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ]
+    ['css-doodle'],
+  ],
+  base: '/', //本地跑,发布用./
+  theme: 'reco',
+  themeConfig: {
+    mode: 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    modePicker: false, // 默认 true，false 不显示模式调节按钮，true 则显示
+    frontMatter: {
+      navbar: false,
     },
-    "type": "blog",
-    "blogConfig": {
-      "category": {
-        "location": 2,
-        "text": "Category"
-      },
-      "tag": {
-        "location": 3,
-        "text": "Tag"
-      }
-    },
-    "friendLink": [
+    codeTheme: 'okaidia', //代码主题
+    nav: [
       {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
+        text: '首页',
+        link: '/',
+        icon: 'reco-home',
       },
       {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
+        text: '时间线',
+        link: '/timeline/',
+        icon: 'reco-date',
+      },
+      {
+        text: '联系',
+        icon: 'reco-message',
+        items: [
+          {
+            text: 'GitHub',
+            link: 'https://github.com/recoluan',
+            icon: 'reco-github',
+          },
+        ],
+      },
     ],
-    "logo": "/logo.png",
-    "search": true,
-    "searchMaxSuggestions": 10,
-    "lastUpdated": "Last Updated",
-    "author": "X2",
-    "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017"
+    subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    sidebar: {
+      '/docs/theme-reco/': [],
+    },
+    type: 'blog',
+    blogConfig: {
+      category: {
+        location: 2, //位置排序从左到右权重
+        text: '分类',
+      },
+      tag: {
+        location: 3,
+        text: '标签',
+      },
+    },
+    friendLink: [
+      {
+        title: '午后南杂',
+        desc: 'Enjoy when you can, and endure when you must.',
+        email: '1156743527@qq.com',
+        link: 'https://www.recoluan.com',
+      },
+    ],
+    logo: '/icon/me.png',
+    search: true,
+    searchMaxSuggestions: 10,
+    lastUpdated: 'Last Updated',
+    author: 'X2',
+    authorAvatar: '/icon/me.png',
+    record: 'xxxx',
+    startYear: '2021',
   },
-  "markdown": {
-    "lineNumbers": true
-  }
-}
+  markdown: {
+    lineNumbers: true,
+  },
+};
