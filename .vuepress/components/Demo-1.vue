@@ -1,6 +1,5 @@
 <template>
   <div style="width: 200px; height: 200px">
-    <div>123</div>
     <css-doodle @click="refresh" ref="doodle">
       @grid: 50x1 / 100%; @place-cell: center; @size: calc(75% / @I * @i);
       transform: rotate(calc(@i * 5deg)); border-radius: 30%; border: 1px solid
@@ -16,8 +15,8 @@ export default {
     //   console.log(module);
     // });
   },
-  components() {
-    CSSDoodle;
+  components: {
+    CSSDoodle,
   },
   methods: {
     refresh: function () {

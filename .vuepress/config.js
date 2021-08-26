@@ -67,7 +67,6 @@ module.exports = {
         },
       },
     ],
-    ['css-doodle'],
   ],
   base: '/', //本地跑,发布用./
   theme: 'reco',
