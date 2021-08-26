@@ -8,12 +8,16 @@
     </css-doodle>
   </div>
 </template>
-
 <script>
-// import "css-doodle";
+import CSSDoodle from "css-doodle";
 export default {
   mounted() {
-    import("../../node_modules/css-doodle/css-doodle.js").then((module) => {});
+    // import("/node_modules/css-doodle/css-doodle").then((module) => {
+    //   console.log(module);
+    // });
+  },
+  components() {
+    CSSDoodle;
   },
   methods: {
     refresh: function () {
