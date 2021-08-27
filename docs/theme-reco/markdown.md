@@ -33,7 +33,7 @@ categories:
 
 ---
 
-![img](../../public/icon/LatteAndCat.png)
+<!-- ![img](../../public/icon/LatteAndCat.png) -->
 
 [To CssDoodle](/blogs/css/2021/20210826.md)
 
