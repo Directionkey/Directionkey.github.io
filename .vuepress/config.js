@@ -67,19 +67,7 @@ module.exports = {
         },
       },
     ],
-    [
-      'meting',
-      // {
-      //   meting: {
-      //     auto: 'http://music.163.com/#/song?id=31452039',
-      //   },
-      //   aplayer: {
-      //     fixed: false,
-      //     autoplay: true,
-      //     mini: false,
-      //   },
-      // },
-    ],
+    ['meting'],
   ],
   base: '/', //本地跑,发布用./
   theme: 'reco',
@@ -142,7 +130,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     author: 'X2',
     authorAvatar: '/icon/me.png',
-    record: 'xxxx',
+    record: 'X2',
     startYear: '2021',
   },
   markdown: {
