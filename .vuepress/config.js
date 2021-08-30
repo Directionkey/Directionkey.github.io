@@ -67,7 +67,19 @@ module.exports = {
         },
       },
     ],
-    ['meting'],
+    [
+      'meting',
+      // {
+      //   meting: {
+      //     auto: 'http://music.163.com/#/song?id=31452039',
+      //   },
+      //   aplayer: {
+      //     fixed: false,
+      //     autoplay: true,
+      //     mini: false,
+      //   },
+      // },
+    ],
   ],
   base: './', //本地跑,发布用./
   theme: 'reco',
