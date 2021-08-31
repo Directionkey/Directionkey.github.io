@@ -6,7 +6,6 @@
 
 <script>
 // import { VexTab, Artist, Vex } from "vextab";
-import "../enhanceApp.js";
 
 export default {
   data() {
