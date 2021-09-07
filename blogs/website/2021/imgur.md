@@ -2,8 +2,8 @@
 title: 博客图床
 date: 2021-09-07
 tags:
-  - Imgur图床
-  - Images.weserv图片缓存
+  - Imgur
+  - ImagesWeserv
 categories:
   - Website
 ---
