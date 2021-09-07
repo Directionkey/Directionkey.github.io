@@ -7,13 +7,13 @@ categories:
   - Website
 ---
 
-为何选择此插件
+## 为何选择此插件
 
 ::: tip
 用来记谱子:musical_score:咯，而目前有许多音乐曲谱库，像吉他社用的是 alphaTab，比较了一下最终选择了专攻五线谱同时又兼顾了吉他谱的[VexFlow/VexTab](https://www.jianshu.com/p/a4ad9337decb)
 :::
 
-踩过的坑
+## 踩过的坑
 
 :::tip
 1.vue 中使用 VexTab 中的方法无法 import 进来，一直是 undefined 报错，看了一下 issues，react、angular 也存在同样的问题。
@@ -45,7 +45,7 @@ export default {
 
 :::
 
-VexFlow 案例
+## VexFlow 案例
 
 <div id="easy_score"></div>
 
@@ -77,7 +77,7 @@ export default {
 }
 </script>
 
-VexTab 案例
+## VexTab 案例
 
 <VexTab :data="`
           tabstave notation=false key=A time=4/4
@@ -86,7 +86,7 @@ VexTab 案例
           text :w, |#segno, ,|, :hd, , #tr
         `" />
 
-相关链接
+## 相关链接
 
 ::: tip
 [VexFlow](https://github.com/0xfe/vexflow)
