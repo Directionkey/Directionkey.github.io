@@ -4,7 +4,7 @@ date: 2021-08-26
 tags:
   - Vue
 categories:
-  - code
+  - Code
 ---
 
 http://github.com/vuejs/vue-class-component/issues/465
