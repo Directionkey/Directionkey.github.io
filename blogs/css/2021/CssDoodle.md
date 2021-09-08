@@ -50,7 +50,6 @@ categories:
 </style>
 
 <script>
-import "css-doodle";
 export default {
   methods: {
     refresh: function () {

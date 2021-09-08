@@ -20,12 +20,12 @@ export default {
       this.Vex = module.Vex;
       this.VexTab = module.VexTab;
       this.Artist = module.Artist;
-      this.rua();
+      this.drawTab();
     });
   },
   props: ["data"],
   methods: {
-    rua() {
+    drawTab() {
       const Renderer = this.Vex.Flow.Renderer;
       // Create VexFlow Renderer from canvas element with id #boo
       const renderer = new Renderer($("#boo")[0], Renderer.Backends.SVG);
