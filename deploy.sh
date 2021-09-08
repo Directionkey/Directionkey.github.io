@@ -5,7 +5,7 @@ set -e
 npm run build
 
 # 进入生成的文件夹，这里是默认的路径，可以自定义
-cd public
+cd ./public
 
 # 如果是发布到自定义域名
 # echo 'www.isunbeam.cn' > CNAME

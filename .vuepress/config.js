@@ -1,7 +1,7 @@
 module.exports = {
   title: 'X2的博客',
   description: '欢迎来听听看看',
-  dest: 'public',
+  dest: './public',
   head: [
     [
       'meta',
@@ -81,7 +81,7 @@ module.exports = {
       // },
     ],
   ],
-  base: '/', //本地跑/,发布用./
+  base: './', //本地跑/,发布用./
   theme: 'reco',
   themeConfig: {
     mode: 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
