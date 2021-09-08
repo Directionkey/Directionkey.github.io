@@ -10,13 +10,6 @@ module.exports = {
         content: 'width=device-width,initial-scale=1,user-scalable=no',
       },
     ],
-    [
-      'meta',
-      {
-        'http-equiv': 'Content-Security-Policy',
-        content: "default-src 'self'; font-src data:",
-      },
-    ],
     ['link', { rel: 'icon', href: '/icon/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#FF66CC' }],
