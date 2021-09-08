@@ -14,8 +14,7 @@ module.exports = {
       'meta',
       {
         'http-equiv': 'Content-Security-Policy',
-        content:
-          "default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'",
+        content: "default-src 'self'; font-src data:",
       },
     ],
     ['link', { rel: 'icon', href: '/icon/favicon.ico' }],
