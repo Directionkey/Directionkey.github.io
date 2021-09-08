@@ -9,8 +9,7 @@ categories:
 
 <Meting server="netease" type="song" mid="1366993875" :lrc-type="3" :autoplay="false" />
 
-<div class="example">
-  <css-doodle @click="refresh" ref="doodle">
+<Doodle :data="`
         @grid: 1 / 600px 300px;
         background-size: 83px 135px;
         background-color: #D24B45;
@@ -22,48 +21,7 @@ categories:
         transform:
           rotateX(45deg)
           skewY(@pn(34deg, -34deg, -34deg));
-        );
-  </css-doodle>
-  <div style="text-align:right;margin: 10px 0;">
-    <button class="btn" @click="saveToPng">Save to PNG</button>
-  </div>
-</div>
-
-<style>
-  .example{
-    width:600px; 
-    margin: 10px auto; 
-  }
-  .btn{
-    width:120px;
-    height:30px;
-    color: #fff;
-    border:1px solid #eee;
-    border-radius: 15px;
-    background: linear-gradient(to left, #1579b7, #07baca);
-    transform: scale(1,1);
-    transition: all .2s ease;
-  }
-  .btn:active{
-    transform: scale(1.1,.9);
-  }
-</style>
-
-<script>
-export default {
-  methods: {
-    refresh: function () {
-      this.$refs.doodle.update();
-    },
-    saveToPng: function() {
-      this.$refs.doodle.export({
-        scale: 5,
-        download: true,
-      })
-    }
-  },
-}
-</script>w
+        );`"/>
 
 ```css
 <css-doodle>
