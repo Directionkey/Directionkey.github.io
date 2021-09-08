@@ -16,15 +16,6 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     [
       'meta',
-      { name: 'http-equiv', content: 'content-Security-Policy' },
-      {
-        name: 'content',
-        content:
-          "'default-src 'self'; style-src 'unsafe-inline'; img-src data:; connect-src 'self';font-src data:",
-      },
-    ],
-    [
-      'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
     ],
     [
