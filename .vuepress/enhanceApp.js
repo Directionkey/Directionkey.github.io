@@ -1,4 +1,4 @@
-import 'css-doodle';
+// import 'css-doodle';
 export default ({ Vue, options, router, siteData }) => {
   // Vue.use()
   // Vue.mixin({

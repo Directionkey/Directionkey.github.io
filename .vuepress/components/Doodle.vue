@@ -16,9 +16,7 @@
 
 export default {
   mounted() {
-    // import("css-doodle").then((module) => {
-    //   console.log(data);
-    // });
+    import("css-doodle").then((module) => {});
   },
   props: ["data"],
   methods: {
