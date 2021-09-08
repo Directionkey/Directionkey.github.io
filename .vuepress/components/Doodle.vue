@@ -15,9 +15,6 @@
 // import "css-doodle";
 
 export default {
-  mounted() {
-    import("css-doodle").then((module) => {});
-  },
   props: ["data"],
   methods: {
     refresh: function () {
