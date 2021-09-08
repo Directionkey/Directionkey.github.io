@@ -12,8 +12,6 @@
 </template>
 
 <script>
-// import "css-doodle";
-
 export default {
   props: ["data"],
   methods: {
