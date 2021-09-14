@@ -1,6 +1,7 @@
 ---
 title: :musical_note:「生物股长 - 青鸟」简谱
 date: 2021-09-06
+cover: https://i.imgur.com/cCKUHz2.jpg
 tags:
   - Harmonica
 categories:
