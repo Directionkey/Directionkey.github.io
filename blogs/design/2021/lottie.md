@@ -8,7 +8,7 @@ categories:
   - Design
 ---
 
-### Lottie 介绍
+Lottie 介绍
 
 ![lottie](https://images.weserv.nl/?url=https://i.imgur.com/jPZBoqH.jpg)
 
