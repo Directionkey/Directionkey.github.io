@@ -8,7 +8,9 @@ categories:
   - Music
 ---
 
-![H.A.A.R.P.jpg](https://images.weserv.nl/?url=https://i.imgur.com/cCKUHz2.jpg&w=400&h=400)
+<div align=center>
+  <img src="https://images.weserv.nl/?url=https://i.imgur.com/cCKUHz2.jpg&w=400&h=400"/>
+</div>
 
 ```
 #1#4#56#5#4
