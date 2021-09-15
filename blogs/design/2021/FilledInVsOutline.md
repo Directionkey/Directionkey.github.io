@@ -7,7 +7,7 @@ categories:
   - Design
 ---
 
-### :book: 文章总结
+:book: 文章总结
 
 1.每个 icon 都具有特征提示，它们必须方便识别足够清晰
 
@@ -19,7 +19,7 @@ categories:
 
 5.如果图标内部空间过窄，则要使用填充图像
 
-### :eyes: 我的理解
+:eyes: 我的理解
 
 填充 Icon：图标内部有狭隘的间距并且特征大多数情况下位于内部
 
@@ -35,7 +35,3 @@ categories:
 转载自[豆瓣](https://www.douban.com/note/716445771/)
 
 [原文](https://uxmovement.com/mobile/solid-vs-outline-icons-which-are-faster-to-recognize/)
-
-```
-
-```
