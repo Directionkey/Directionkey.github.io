@@ -33,4 +33,17 @@ export default {
   width: 600px;
   margin: 10px auto;
 }
+.btn {
+  width: 120px;
+  height: 30px;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  background: linear-gradient(to left, #1579b7, #07baca);
+  transform: scale(1, 1);
+  transition: all 0.2s ease;
+}
+.btn:active {
+  transform: scale(1.1, 0.9);
+}
 </style>
