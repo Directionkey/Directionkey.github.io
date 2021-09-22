@@ -7,8 +7,6 @@ categories:
   - css-doodle
 ---
 
-<Meting server="netease" type="song" mid="1366993875" :lrc-type="3" :autoplay="false" />
-
 <Doodle :data="`
         @grid: 1 / 600px 300px;
         background-size: 83px 135px;

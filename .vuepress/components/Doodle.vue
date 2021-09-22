@@ -12,8 +12,16 @@
 </template>
 
 <script>
+import Axios from "axios";
 export default {
   props: ["data"],
+  mounted() {
+    Axios.get(
+      "https://www.songsterr.com/api/songs?size=50&pattern=coldplay"
+    ).then((res) => {
+      console.log(res);
+    });
+  },
   methods: {
     refresh: function () {
       this.$refs.doodle.update();

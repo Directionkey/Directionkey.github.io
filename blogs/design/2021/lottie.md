@@ -8,6 +8,8 @@ categories:
   - Design
 ---
 
+<Meting server="netease" type="song" mid="1366993875" :lrc-type="3" :autoplay="false" />
+
 Lottie 介绍
 
 ![lottie](https://images.weserv.nl/?url=https://i.imgur.com/jPZBoqH.jpg)
