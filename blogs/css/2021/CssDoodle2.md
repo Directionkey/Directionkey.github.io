@@ -9,7 +9,7 @@ categories:
 
 <template>
   <div class="box">
-    <css-doodle click-to-update class="doodle" ref="doodle">
+    <css-doodle click-to-update class="doodle" ref="test1">
       @grid: 15 / 100vmax;
       :doodle {
         overflow: hidden;
@@ -21,14 +21,12 @@ categories:
       @nth(4n){
         width: 100%;
         height: 100%;
-        top: 100%;
-        left: 150%;
-        transform: rotate(45deg) scale(4);
+        transform: rotate(@p(45deg,315deg)) scale(1);
         background-image: @svg(
-          <svg viewBox="0 0 300 300"">
+          <svg viewBox="0 0 120 120"">
               <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="画板" transform="translate(-44.000000, -44.000000)" fill="#FFFFFF">
-                      <g id="编组" transform="translate(44.000000, 44.000000)">
+                  <g id="画板" fill="#FFFFFF">
+                      <g id="编组">
                           <circle id="椭圆形" cx="3" cy="3" r="3"></circle>
                           <circle id="椭圆形备份-11" cx="3" cy="23" r="3"></circle>
                           <circle id="椭圆形备份-17" cx="3" cy="43" r="3"></circle>
@@ -131,12 +129,12 @@ categories:
     </css-doodle>
 
   </div>
-  <button class="save-btn" @click="saveToPng">Save to PNG</button>
+  <button class="save-btn" @click="saveToPng('test1')">Save to PNG</button>
 </template>
 
 <template>
   <div class="box">
-    <css-doodle click-to-update class="doodle" ref="doodle">
+    <css-doodle click-to-update class="doodle" ref="test2">
       @grid: 81 / 100vmax;
       :doodle {
         overflow: hidden;
@@ -166,12 +164,12 @@ categories:
       }
     </css-doodle>
   </div>
-  <button class="save-btn" @click="saveToPng">Save to PNG</button>
+  <button class="save-btn" @click="saveToPng('test2')">Save to PNG</button>
 </template>
 
 <template>
   <div class="box">
-    <css-doodle click-to-update class="doodle" ref="doodle">
+    <css-doodle click-to-update class="doodle" ref="test3">
       @grid: 36 / 100vmax;
       :doodle {
         overflow: hidden;
@@ -201,16 +199,16 @@ categories:
       }
     </css-doodle>
   </div>
-  <button class="save-btn" @click="saveToPng">Save to PNG</button>
+  <button class="save-btn" @click="saveToPng('test3')">Save to PNG</button>
 </template>
 
 <script>
   import 'css-doodle'
   export default{
     methods: {
-      saveToPng: function () {
-        this.$refs.doodle.export({
-          scale: 5,
+      saveToPng: function (name) {
+        this.$refs[name].export({
+          scale: 3,
           download: true,
         });
       },

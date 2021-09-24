@@ -8,7 +8,7 @@ categories:
 ---
 
 <Doodle :data="`
-        @grid: 1 / 600px 300px;
+        @grid: 1 / 100% 300px;
         background-size: 83px 135px;
         background-color: #D24B45;
         background-image: @doodle(
@@ -35,5 +35,8 @@ categories:
       rotateX(45deg)
       skewY(@pn(34deg, -34deg, -34deg));
   );
+  //关键点在于transform中的变换，image中的一个cell由对角对应黑白的四个方块构成，
+  以这四个方块的共同的顶点作为变换中心，先做skewY将一部分的bg的红色显露出来
+  但作为共同顶点的部分因为隐藏所以看不出skewY变化，所以需要用rotateX旋转成菱形。
 </css-doodle>
 ```

@@ -38,7 +38,7 @@ export default {
 
 <style>
 .example {
-  width: 600px;
+  width: 100%;
   margin: 10px auto;
 }
 .btn {
