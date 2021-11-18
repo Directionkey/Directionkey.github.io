@@ -29,7 +29,7 @@ categories:
 用户需要更具快速地去识别那些他们<font color=#ffa500 >未发现的选项</font>，而不是去识别那些他们已经选择完的选项，active 按钮不需要是填充图标。但是相反，对于非 active button 来说，最好通过填充样式表现出来。为什么要使用轮廓样式去突出显示 active 按钮呢，因为它提供了一个更清晰的风格和颜色变化，这种变化加强了用户的选择过程。如果你想达到一个更快的图标识别速度，那么最好使用填充 icon。
 
 <div align=center>
-  <img src="https://images.weserv.nl/?url=https://i.imgur.com/ahwklur.png"/>
+  <img src="https://pic1.xuehuaimg.com/proxy/https://i.imgur.com/ahwklur.png"/>
 </div>
 
 转载自[豆瓣](https://www.douban.com/note/716445771/)

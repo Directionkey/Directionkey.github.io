@@ -1,7 +1,7 @@
 ---
 title: :musical_note:「生物股长 - 青鸟」简谱
 date: 2021-09-06
-cover: https://images.weserv.nl/?url=https://i.imgur.com/cCKUHz2.jpg
+cover: https://pic1.xuehuaimg.com/proxy/https://i.imgur.com/cCKUHz2.jpg
 tags:
   - Harmonica
 categories:
@@ -9,7 +9,7 @@ categories:
 ---
 
 <div align=center>
-  <img src="https://images.weserv.nl/?url=https://i.imgur.com/cCKUHz2.jpg&w=400&h=400"/>
+  <img src="https://pic1.xuehuaimg.com/proxy/https://i.imgur.com/cCKUHz2.jpg&w=400&h=400"/>
 </div>
 
 ```

@@ -17,6 +17,7 @@
   "dependencies": {
     "@coderline/alphatab": "^1.2.1",
     "css-doodle": "^0.19.1",
+    "vexchords": "^1.2.0",
     "vexflow": "^3.0.9",
     "vextab": "^3.0.6"
   }
