@@ -56,7 +56,7 @@ git checkout -b 本地分支名 origin/远程分支名
 
 ```
 git branch -b 新分支名
-git push --set-upsteam origin 分支名
+git push --set-upstream origin 分支名
 ```
 
 ![git](https://pic1.xuehuaimg.com/proxy/https://i.imgur.com/jNpkXqh.jpg)
@@ -70,3 +70,7 @@ git merge dev        //将dev分支合并到当前分支(master)中
 ```
 
 [参考](https://www.cnblogs.com/runnerjack/p/9342362.html)
+
+11/18 更新
+git reset 不小心回退过早版本，以为丢失了最近修改。
+可以用 git reflog 查找记录，再用 reset 回滚
