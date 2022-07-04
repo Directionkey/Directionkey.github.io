@@ -2,3 +2,4 @@ node_modules/
 yarn.lock
 yarn.errorw
 .temp
+.DS_Store
