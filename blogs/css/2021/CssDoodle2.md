@@ -203,7 +203,6 @@ categories:
 </template>
 
 <script>
-  import 'css-doodle'
   export default{
     methods: {
       saveToPng: function (name) {
@@ -223,6 +222,6 @@ categories:
     overflow: hidden;
   }
   .save-btn{
-    margin: 10px auto;
+    margin: 12px auto;
   }
 </style>

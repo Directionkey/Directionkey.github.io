@@ -26,8 +26,9 @@ categories:
 	justify-content: center;
 	align-items: center;
 }
-.body,.main::before{
-	background: url('https://pic1.xuehuaimg.com/proxy/https://i.imgur.com/cCKUHz2.jpg') 0/ cover fixed;
+.body,
+.main::before{
+	background: url('https://pic1.xuehuaimg.com/proxy/https://i.imgur.com/cCKUHz2.jpg') left top / cover no-repeat fixed;
 }
 .main {
 	width: 200px;
@@ -56,6 +57,6 @@ categories:
 }
 </style>
 
-[思路来源](https://blog.csdn.net/qq_39043923/article/details/88687046)
-
-[官方](https://vue-loader-v14.vuejs.org/zh-cn/features/scoped-css.html)
+还有一种就是 backdrop-filter:blur(10px) 模糊只影响到元素背景，不会影响到内部元素
+但我认为二者的使用场景是不同的
+第一种是适合大面积场景滚动，第二种小场景
