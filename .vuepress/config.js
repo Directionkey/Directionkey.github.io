@@ -1,7 +1,7 @@
 module.exports = {
   title: 'X2的博客',
   description: '欢迎来听听看看',
-  dest: 'public',
+  dest: '.vuepress/dist',
   head: [
     [
       'meta',
@@ -93,7 +93,7 @@ module.exports = {
     nav: [
       {
         text: '首页',
-        link: '/',
+        link: '/public/',
         icon: 'reco-home',
       },
       {
