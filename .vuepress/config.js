@@ -1,7 +1,7 @@
 module.exports = {
   title: 'X2的博客',
   description: '欢迎来听听看看',
-  dist: 'public',
+  dest: 'public',
   head: [
     [
       'meta',
