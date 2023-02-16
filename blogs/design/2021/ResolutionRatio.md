@@ -2,7 +2,7 @@
 title: 分辨率，设计开发中的单位
 date: 2021-09-27
 tags:
-  - 单位
+  - unit
 categories:
   - Design
 ---
