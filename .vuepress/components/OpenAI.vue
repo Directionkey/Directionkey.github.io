@@ -125,7 +125,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      api: "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",
+      api: "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",
       msgLoad: false,
       anData: {},
       sentext: "先输入api再发送问题",
