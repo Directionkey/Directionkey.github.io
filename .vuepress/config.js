@@ -1,7 +1,8 @@
 module.exports = {
   title: 'X2的博客',
   description: '欢迎来听听看看',
-  dest: '.vuepress/dist',
+  // dest: '.vuepress/dist',
+  dest: 'public',
   head: [
     [
       'meta',
